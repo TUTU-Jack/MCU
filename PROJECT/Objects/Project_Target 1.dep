@@ -1,850 +1,0 @@
-Dependencies for Project 'Project', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 6180000::V6.18::ARMCLANG
-F (..\USER\main.c)(0x62DA56C3)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/main.o -MD)
-I (..\USER\main.h)(0x62DA464E)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-I (..\HARDWARE\LED\LED.h)(0x62D7C5C8)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\HARDWARE\Systick\Systick.h)(0x62DA5F4B)
-I (..\HARDWARE\Task\task.h)(0x62DA5E67)
-I (..\HARDWARE\UART\uart.h)(0x62D8ABCD)
-I (..\HARDWARE\Timer\timer.h)(0x62D8F0CD)
-I (..\HARDWARE\KeyInterrupt\key.h)(0x62DA04DF)
-I (..\HARDWARE\Capture\capture.h)(0x62DA1E40)
-I (..\HARDWARE\PWM\pwm.h)(0x62DA440B)
-F (..\USER\pt32f0xx_it.c)(0x62DA39F2)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_it.o -MD)
-I (..\USER\pt32f0xx_it.h)(0x62D8EF95)
-I (..\USER\main.h)(0x62DA464E)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-I (..\HARDWARE\LED\LED.h)(0x62D7C5C8)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\HARDWARE\Systick\Systick.h)(0x62DA5F4B)
-I (..\HARDWARE\Task\task.h)(0x62DA5E67)
-I (..\HARDWARE\UART\uart.h)(0x62D8ABCD)
-I (..\HARDWARE\Timer\timer.h)(0x62D8F0CD)
-I (..\HARDWARE\KeyInterrupt\key.h)(0x62DA04DF)
-I (..\HARDWARE\Capture\capture.h)(0x62DA1E40)
-I (..\HARDWARE\PWM\pwm.h)(0x62DA440B)
-F (..\HARDWARE\LED\LED.c)(0x62DA56F2)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/led.o -MD)
-I (..\HARDWARE\LED\LED.h)(0x62D7C5C8)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\Systick\Systick.c)(0x62DA5F26)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/systick.o -MD)
-I (..\HARDWARE\Systick\Systick.h)(0x62DA5F4B)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\Task\task.c)(0x62D8E3E1)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/task.o -MD)
-I (..\HARDWARE\Task\task.h)(0x62DA5E67)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-I (..\HARDWARE\LED\LED.h)(0x62D7C5C8)
-F (..\HARDWARE\UART\uart.c)(0x62D8B02F)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/uart.o -MD)
-I (..\HARDWARE\UART\uart.h)(0x62D8ABCD)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\Timer\timer.c)(0x62D8EE6F)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/timer.o -MD)
-I (..\HARDWARE\Timer\timer.h)(0x62D8F0CD)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\Capture\capture.c)(0x62DA1CE8)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/capture.o -MD)
-I (..\HARDWARE\Capture\capture.h)(0x62DA1E40)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\KeyInterrupt\key.c)(0x62DA077E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/key.o -MD)
-I (..\HARDWARE\KeyInterrupt\key.h)(0x62DA04DF)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\PWM\pwm.c)(0x62DA47BE)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pwm.o -MD)
-I (..\HARDWARE\PWM\pwm.h)(0x62DA440B)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\SPI\SPI.c)(0x63745A7C)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/spi.o -MD)
-I (..\HARDWARE\SPI\SPI.h)(0x63745A44)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\I2C\I2C.c)(0x63745C23)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/i2c.o -MD)
-I (..\HARDWARE\I2C\I2C.h)(0x63745C10)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\HARDWARE\ADC\ADC.c)(0x63745CBB)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/adc.o -MD)
-I (..\HARDWARE\ADC\ADC.h)(0x63745C7C)
-I (..\USER\pt32f0xx_conf.h)(0x63745BCA)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-F (..\SYSTEM\startup_pt32f031.s)(0x5EDB2F47)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-mlittle-endian -gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"ARMCM0 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_pt32f031.o)
-F (..\SYSTEM\system_pt32f0xx.c)(0x62D7921A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/system_pt32f0xx.o -MD)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_gpio.c)(0x5F9A34C3)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_gpio.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_adc.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_adc.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_ana.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_ana.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_beep.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_beep.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_cmp_opa.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_cmp_opa.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_crc.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_crc.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_crc.h)(0x5F697D9C)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_flash.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_flash.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_i2c.c)(0x5F69D479)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_i2c.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_i2c.h)(0x5EF1549F)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_misc.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_misc.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_pwm.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_pwm.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_pwr.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_pwr.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_retarget.c)(0x5F69DBC7)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_retarget.o -MD)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625260D6)
-F (..\PeriphLibraries\Src\pt32f0xx_serial.c)(0x5F69DBC7)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_serial.o -MD)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_spi.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_spi.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_sys.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_sys.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_tim.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_tim.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_uart.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_uart.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
-F (..\PeriphLibraries\Src\pt32f0xx_wdg.c)(0x5F69AA97)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../SYSTEM -I ../PeriphLibraries/Inc -I ../HARDWARE/LED -I ../HARDWARE/Systick -I ../HARDWARE/Task -I ../HARDWARE/UART -I ../HARDWARE/Timer -I ../HARDWARE/Capture -I ../HARDWARE/KeyInterrupt -I ../HARDWARE/PWM-I./RTE/_Target_1-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/chenjie/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="537" -D_RTE_ -DARMCM0 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DPT32F031-o ./objects/pt32f0xx_wdg.o -MD)
-I (..\PeriphLibraries\Inc\pt32f0xx_wdg.h)(0x5F69CBE2)
-I (..\SYSTEM\pt32f0xx.h)(0x5F69CBE2)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F4ADE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625260D8)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (C:\Users\chenjie\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
-I (..\SYSTEM\system_pt32f0xx.h)(0x5F69ABE2)
-I (..\SYSTEM\pt32f0xx_conf.h)(0x62D7A2A0)
-I (..\PeriphLibraries\Inc\pt32f0xx_adc.h)(0x5F69AB2C)
-I (..\PeriphLibraries\Inc\pt32f0xx_ana.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_beep.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_flash.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_gpio.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_cmp_opa.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwr.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_spi.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_syscfg.h)(0x5ED9CE8E)
-I (..\PeriphLibraries\Inc\pt32f0xx_tim.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_pwm.h)(0x62D9FEC4)
-I (..\PeriphLibraries\Inc\pt32f0xx_uart.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_misc.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_sys.h)(0x5F69CBE2)
-I (..\PeriphLibraries\Inc\pt32f0xx_serial.h)(0x5ED9D161)
