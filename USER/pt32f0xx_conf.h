@@ -63,6 +63,7 @@
 #include "pt32f0xx_wdg.h"
 #include "pt32f0xx_misc.h"
 #include "pt32f0xx_sys.h"
+#include "pt32f0xx_i2c.h"
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
